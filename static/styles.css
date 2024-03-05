@@ -118,7 +118,8 @@ body {
 /* Carosel Styling */
 
 .carousel-quote-card,
-.video-carousel {
+.video-carousel,
+.membership-section {
     padding-top: 6.875rem;
     padding-bottom: 6.875rem;
 }
@@ -134,4 +135,10 @@ body {
 .phillip {
     height: 30px;
     width: 30px;
+}
+
+/* Smile Styling */
+
+.smile-card {
+    width: 17.25rem;
 }
