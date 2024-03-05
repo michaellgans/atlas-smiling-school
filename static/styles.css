@@ -50,6 +50,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     max-height: 62.5rem;
+    background-color: #071629;
 }
 
 .page-title {
@@ -63,6 +64,11 @@ body {
 
 .pros {
     margin-top: 10.5rem;
+}
+
+.pros-container {
+    margin-top: 5.5rem;
+    margin-bottom: 6.125rem;
 }
 
 /* Button Styling */
