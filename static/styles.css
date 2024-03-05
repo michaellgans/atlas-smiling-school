@@ -2,6 +2,7 @@
 
 :root {
     --color-purple: #C271FF;
+    --color-black: #071629;
 }
 
 /* Font Styling */
@@ -46,6 +47,10 @@
     color: var(--color-purple);
 }
 
+.black {
+    color: var(--color-black);
+}
+
 /* Background Styling */
 
 body {
@@ -63,6 +68,11 @@ body {
 
 .purple-background {
     background-color: var(--color-purple);
+    width: 100%;
+}
+
+.black-background {
+    background-color: var(--color-black);
     width: 100%;
 }
 
@@ -103,7 +113,8 @@ body {
 
 /* Carosel Styling */
 
-.carousel-quote-card {
+.carousel-quote-card,
+.video-carousel {
     padding-top: 6.875rem;
     padding-bottom: 6.875rem;
 }
