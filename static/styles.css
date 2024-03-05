@@ -4,6 +4,30 @@
 
 }
 
+/* Font Styling */
+
+@font-face {
+    font-family: sans-pro;
+    src: url(./fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: sans-pro-light;
+    src: url(./fonts/SourceSansPro-Light.otf);
+}
+
+.sans-pro {
+    font-family: sans-pro;
+}
+
+.sans-pro-light {
+    font-family: sans-pro-light;
+}
+
+.text-size-12 {
+    font-size: .75rem;
+}
+
 /* Background Styling */
 
 body {
