@@ -1,7 +1,7 @@
 /* Styling for Homepage */
 
 :root {
-
+    --color-purple: #C271FF;
 }
 
 /* Font Styling */
@@ -24,8 +24,12 @@
     font-family: sans-pro-light;
 }
 
-.text-size-12 {
+.fs-12 {
     font-size: .75rem;
+}
+
+.fw-700 {
+    font-weight: 700;
 }
 
 /* Background Styling */
@@ -35,4 +39,26 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.page-title {
+    margin-top: 9rem;
+    font-size: 120px;
+}
+
+.page-subtitle {
+    font-size: 16px;
+}
+
+/* Button Styling */
+
+.btn {
+    width: 162px;
+    height: 44px;
+}
+
+.btn-primary {
+    background-color: var(--color-purple);
+    border-radius: 22px;
+    border: 0;
 }
