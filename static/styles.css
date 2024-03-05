@@ -142,3 +142,12 @@ body {
 .smile-card {
     width: 17.25rem;
 }
+
+footer {
+    padding-top: 3.875rem;
+    padding-bottom: 3.875rem;
+}
+
+.copyright {
+    opacity: 0.3517;
+}
