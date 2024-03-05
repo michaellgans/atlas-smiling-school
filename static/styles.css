@@ -51,6 +51,10 @@
     color: var(--color-black);
 }
 
+.muted-color {
+    color: rgba(7, 22, 41, 0.50);
+}
+
 /* Background Styling */
 
 body {
@@ -117,4 +121,17 @@ body {
 .video-carousel {
     padding-top: 6.875rem;
     padding-bottom: 6.875rem;
+}
+
+.thumbnail,
+.card {
+    max-width: 16rem;
+    border: 0;
+}
+
+/* Video Styling */
+
+.phillip {
+    height: 30px;
+    width: 30px;
 }
