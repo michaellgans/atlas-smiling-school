@@ -151,3 +151,9 @@ footer {
 .copyright {
     opacity: 0.3517;
 }
+
+/* STYLING FOR COURSES */
+
+.drop-down-section {
+    width: 100%;
+}
