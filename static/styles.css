@@ -24,12 +24,22 @@
     font-family: sans-pro-light;
 }
 
+/* Font size */
+
 .fs-12 {
     font-size: .75rem;
 }
 
+/* Font Weight */
+
 .fw-700 {
     font-weight: 700;
+}
+
+/* Font Color */
+
+.purple {
+    color: var(--color-purple);
 }
 
 /* Background Styling */
@@ -39,15 +49,20 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    max-height: 62.5rem;
 }
 
 .page-title {
     margin-top: 9rem;
-    font-size: 120px;
+    font-size: 7.5rem;
 }
 
 .page-subtitle {
-    font-size: 16px;
+    font-size: 1rem;
+}
+
+.pros {
+    margin-top: 10.5rem;
 }
 
 /* Button Styling */
