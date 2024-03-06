@@ -144,6 +144,11 @@ body {
     text-align: left;
 }
 
+.btn-primary:hover {
+    background-color: var(--color-purple);
+    opacity: .9;
+}
+
 /* Carosel Styling */
 
 .carousel-quote-card,

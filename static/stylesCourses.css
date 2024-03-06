@@ -115,6 +115,11 @@ body {
     border: 0;
 }
 
+.btn-primary:hover {
+    background-color: var(--color-purple);
+    opacity: .9;
+}
+
 .btn-secondary,
 .btn-secondary:hover {
     border-radius: 3px 3px 0px 0px;
