@@ -1,0 +1,179 @@
+/* Styling for Homepage */
+
+:root {
+    --color-purple: #C271FF;
+    --color-black: #071629;
+}
+
+/* Font Styling */
+
+@font-face {
+    font-family: sans-pro;
+    src: url(./fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: sans-pro-light;
+    src: url(./fonts/SourceSansPro-Light.otf);
+}
+
+.sans-pro {
+    font-family: sans-pro;
+}
+
+.sans-pro-light {
+    font-family: sans-pro-light;
+}
+
+/* Font size */
+
+.fs-12 {
+    font-size: .75rem;
+}
+
+.fs-22 {
+    font-size: 1.5rem;
+}
+
+/* Font Weight */
+
+.fw-700 {
+    font-weight: 700;
+}
+
+/* Font Color */
+
+.purple {
+    color: var(--color-purple);
+}
+
+.black {
+    color: var(--color-black);
+}
+
+.muted-color {
+    color: rgba(7, 22, 41, 0.50);
+}
+
+/* Background Styling */
+
+body {
+    background-image: url(./images/background3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 65.5rem;
+    background-color: #071629;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.purple-background {
+    background-color: var(--color-purple);
+    width: 100%;
+}
+
+.black-background {
+    background-color: var(--color-black);
+    width: 100%;
+}
+
+/* Hero Section Styling */
+
+.page-title,
+.pricing-title {
+    margin-top: 9rem;
+    font-size: 7.5rem;
+}
+
+.page-subtitle {
+    font-size: 1rem;
+}
+
+.pros {
+    margin-top: 10.5rem;
+}
+
+.pros-container {
+    margin-top: 5.5rem;
+    margin-bottom: 6.125rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+/* Button Styling */
+
+.register-button {
+    width: 162px;
+    height: 44px;
+}
+
+.btn-primary {
+    background-color: var(--color-purple);
+    border-radius: 22px;
+    border: 0;
+}
+
+.btn-secondary,
+.btn-secondary:hover {
+    border-radius: 3px 3px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 15rem;
+    text-align: left;
+}
+
+/* Carosel Styling */
+
+.carousel-quote-card,
+.video-carousel,
+.membership-section {
+    padding-top: 6.875rem;
+    padding-bottom: 6.875rem;
+}
+
+.thumbnail,
+.card {
+    max-width: 16rem;
+    border: 0;
+}
+
+/* Video Styling */
+
+.phillip {
+    height: 30px;
+    width: 30px;
+}
+
+/* Smile Styling */
+
+.smile-card {
+    width: 17.25rem;
+}
+
+footer {
+    padding-top: 3.875rem;
+    padding-bottom: 3.875rem;
+}
+
+.copyright {
+    opacity: 0.3517;
+}
+
+/* STYLING FOR COURSES */
+
+.drop-down-section {
+    width: 100%;
+}
+
+.test {
+    max-width: 20rem;
+}
+
+.video-count {
+    padding-left: 10.75rem;
+}
