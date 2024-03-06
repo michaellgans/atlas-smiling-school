@@ -35,10 +35,18 @@
     font-size: 1.5rem;
 }
 
+.fs-32 {
+    font-size: 2rem;
+}
+
 /* Font Weight */
 
 .fw-700 {
     font-weight: 700;
+}
+
+.fw-400 {
+    font-weight: 400;
 }
 
 /* Font Color */
@@ -176,4 +184,14 @@ footer {
 
 .video-count {
     padding-left: 10.75rem;
+}
+
+/* Pricing Styling */
+
+.pricing-title {
+    font-size: 32px;
+}
+
+.go-pro-title {
+    font-size: 60px;
 }
