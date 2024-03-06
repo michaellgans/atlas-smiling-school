@@ -39,6 +39,10 @@
     font-size: 2rem;
 }
 
+.fs-44 {
+    font-size: 2.5rem;
+}
+
 /* Font Weight */
 
 .fw-700 {
@@ -122,6 +126,11 @@ body {
     background-color: var(--color-purple);
     border-radius: 22px;
     border: 0;
+}
+
+.button-sizing {
+    width: 162px;
+    height: 44px;
 }
 
 .btn-secondary,
