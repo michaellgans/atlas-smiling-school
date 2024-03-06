@@ -58,11 +58,11 @@
 /* Background Styling */
 
 body {
-    background-image: url(./images/background.png);
+    background-image: url(./images/background2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    max-height: 62.5rem;
+    max-height: 16.5rem;
     background-color: #071629;
 }
 
@@ -113,10 +113,6 @@ body {
     background-color: var(--color-purple);
     border-radius: 22px;
     border: 0;
-}
-
-.shadow {
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.45)!important;
 }
 
 /* Carosel Styling */
