@@ -157,3 +157,7 @@ footer {
 .drop-down-section {
     width: 100%;
 }
+
+.test {
+    max-width: 20rem;
+}
