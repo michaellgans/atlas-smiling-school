@@ -161,6 +161,8 @@ body {
 .faq-section {
     padding-top: 6.875rem;
     padding-bottom: 6.875rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .thumbnail,

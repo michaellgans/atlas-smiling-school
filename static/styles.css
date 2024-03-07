@@ -43,8 +43,8 @@
 
 /* Font Color */
 
-.purple {
-    color: var(--color-purple);
+.text-primary {
+    color: var(--color-purple)!important;
 }
 
 .black {
@@ -102,6 +102,10 @@ body {
     margin-right: 15rem;
 }
 
+.pros-container .rounded-circle {
+    margin-top: 2rem;
+}
+
 /* Button Styling */
 
 .register-button {
@@ -131,6 +135,8 @@ body {
 .membership-section {
     padding-top: 6.875rem;
     padding-bottom: 6.875rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .thumbnail,
