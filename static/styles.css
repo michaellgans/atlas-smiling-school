@@ -87,6 +87,14 @@ body {
     font-size: 7.5rem;
 }
 
+@media screen and (max-width: 700px) {
+    .page-title {
+        margin-top: 9rem;
+        margin-bottom: 2rem;
+        font-size: 5.5rem;
+    }
+}
+
 .page-subtitle {
     font-size: 1rem;
 }
@@ -126,6 +134,12 @@ body {
 
 .shadow {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,0.45)!important;
+}
+
+.hover:hover {
+    color: var(--color-purple)!important;
+    opacity: .9;
+    text-decoration: none;
 }
 
 /* Carosel Styling */
